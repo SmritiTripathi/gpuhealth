@@ -1,0 +1,7 @@
+apiVersion: health.example.com/v1alpha1
+kind: GPUHealthReport
+metadata:
+  name: gpuhealthreport-sample
+spec:
+  nodeName: gpu-practice-worker
+  healthy: true
